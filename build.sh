@@ -5,6 +5,6 @@ if [ -f "/data/Gemfile" ]; then
 	/usr/local/bin/bundle install
 fi
 	
-echo "> /usr/local/bin/jekyll build ."
-/usr/local/bin/jekyll build .
+echo "> /usr/local/bin/jekyll build --safe"
+/usr/local/bin/jekyll build --safe
 
